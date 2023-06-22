@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5AB40B2A43F3DC00871739 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E5AB4042A43F3DC00871739 /* E.wav */; };
+		1E5AB40C2A43F3DC00871739 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E5AB4052A43F3DC00871739 /* B.wav */; };
+		1E5AB40D2A43F3DC00871739 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E5AB4062A43F3DC00871739 /* F.wav */; };
+		1E5AB40E2A43F3DC00871739 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E5AB4072A43F3DC00871739 /* A.wav */; };
+		1E5AB40F2A43F3DC00871739 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E5AB4082A43F3DC00871739 /* D.wav */; };
+		1E5AB4102A43F3DC00871739 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E5AB4092A43F3DC00871739 /* C.wav */; };
+		1E5AB4112A43F3DC00871739 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E5AB40A2A43F3DC00871739 /* G.wav */; };
 		1E91DB912A43DB2900A4C94B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91DB902A43DB2900A4C94B /* AppDelegate.swift */; };
 		1E91DB932A43DB2900A4C94B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91DB922A43DB2900A4C94B /* SceneDelegate.swift */; };
 		1E91DB952A43DB2900A4C94B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91DB942A43DB2900A4C94B /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5AB4042A43F3DC00871739 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E.wav; path = ../../../../../Downloads/Sounds/E.wav; sourceTree = "<group>"; };
+		1E5AB4052A43F3DC00871739 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B.wav; path = ../../../../../Downloads/Sounds/B.wav; sourceTree = "<group>"; };
+		1E5AB4062A43F3DC00871739 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = F.wav; path = ../../../../../Downloads/Sounds/F.wav; sourceTree = "<group>"; };
+		1E5AB4072A43F3DC00871739 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = A.wav; path = ../../../../../Downloads/Sounds/A.wav; sourceTree = "<group>"; };
+		1E5AB4082A43F3DC00871739 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D.wav; path = ../../../../../Downloads/Sounds/D.wav; sourceTree = "<group>"; };
+		1E5AB4092A43F3DC00871739 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C.wav; path = ../../../../../Downloads/Sounds/C.wav; sourceTree = "<group>"; };
+		1E5AB40A2A43F3DC00871739 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = G.wav; path = ../../../../../Downloads/Sounds/G.wav; sourceTree = "<group>"; };
 		1E91DB8D2A43DB2900A4C94B /* Xylophone-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xylophone-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E91DB902A43DB2900A4C94B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E91DB922A43DB2900A4C94B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5AB4032A43F36F00871739 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1E5AB4072A43F3DC00871739 /* A.wav */,
+				1E5AB4052A43F3DC00871739 /* B.wav */,
+				1E5AB4092A43F3DC00871739 /* C.wav */,
+				1E5AB4082A43F3DC00871739 /* D.wav */,
+				1E5AB4042A43F3DC00871739 /* E.wav */,
+				1E5AB4062A43F3DC00871739 /* F.wav */,
+				1E5AB40A2A43F3DC00871739 /* G.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		1E91DB842A43DB2900A4C94B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +84,7 @@
 		1E91DB8F2A43DB2900A4C94B /* Xylophone-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				1E5AB4032A43F36F00871739 /* Sounds */,
 				1E91DB902A43DB2900A4C94B /* AppDelegate.swift */,
 				1E91DB922A43DB2900A4C94B /* SceneDelegate.swift */,
 				1E91DB942A43DB2900A4C94B /* ViewController.swift */,
@@ -125,8 +154,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5AB40E2A43F3DC00871739 /* A.wav in Resources */,
 				1E91DB9D2A43DB2A00A4C94B /* LaunchScreen.storyboard in Resources */,
+				1E5AB40C2A43F3DC00871739 /* B.wav in Resources */,
+				1E5AB4102A43F3DC00871739 /* C.wav in Resources */,
 				1E91DB9A2A43DB2A00A4C94B /* Assets.xcassets in Resources */,
+				1E5AB40D2A43F3DC00871739 /* F.wav in Resources */,
+				1E5AB4112A43F3DC00871739 /* G.wav in Resources */,
+				1E5AB40F2A43F3DC00871739 /* D.wav in Resources */,
+				1E5AB40B2A43F3DC00871739 /* E.wav in Resources */,
 				1E91DB982A43DB2900A4C94B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
