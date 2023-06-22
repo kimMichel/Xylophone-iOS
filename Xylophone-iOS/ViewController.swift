@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var audioPlayer: AVAudioPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +18,25 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
-        print("I was pressed!")
+        playCSound()
+    }
+    
+    func playCSound() {
+        guard let path = Bundle.main.path(forResource: "C", ofType: "wav") else {
+            print("Arquivo de som não encontrado")
+            return
+        }
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.prepareToPlay()
+            audioPlayer?.volume = 1.0
+            audioPlayer?.numberOfLoops = 0
+            audioPlayer?.play()
+        } catch {
+            print("Erro ao reproduzir o som: \(error.localizedDescription)")
+        }
     }
     
 }
