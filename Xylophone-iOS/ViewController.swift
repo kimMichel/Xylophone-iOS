@@ -16,13 +16,31 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func keyPressed(_ sender: UIButton) {
-        playCSound()
+        switch sender.titleLabel?.text {
+        case "C" :
+            playSound(chord: "C")
+        case "D":
+            playSound(chord: "D")
+        case "E":
+            playSound(chord: "E")
+        case "F":
+            playSound(chord: "F")
+        case "G":
+            playSound(chord: "G")
+        case "A":
+            playSound(chord: "A")
+        case "B":
+            playSound(chord: "B")
+        default:
+            print("It's some other chord")
+        }
+        
     }
     
-    func playCSound() {
-        guard let path = Bundle.main.path(forResource: "C", ofType: "wav") else {
+    func playSound(chord: String) {
+        guard let path = Bundle.main.path(forResource: chord.uppercased(), ofType: "wav") else {
             print("Arquivo de som não encontrado")
             return
         }

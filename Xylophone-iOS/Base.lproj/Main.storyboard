@@ -31,7 +31,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1qr-8p-8lQ"/>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vTC-fB-OL2"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -53,6 +53,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="D">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YU4-J7-S4f"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -73,6 +76,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="E">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mNW-mc-AhK"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -93,6 +99,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="F">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="835-sb-PF5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -113,6 +122,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="G">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWT-Fi-6de"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -133,6 +145,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="A">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="30V-lC-3Uj"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -153,6 +168,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="B">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vFN-0M-C9c"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
