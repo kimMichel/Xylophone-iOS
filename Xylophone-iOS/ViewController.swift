@@ -18,25 +18,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func keyPressed(_ sender: UIButton) {
-        switch sender.titleLabel?.text {
-        case "C" :
-            playSound(chord: "C")
-        case "D":
-            playSound(chord: "D")
-        case "E":
-            playSound(chord: "E")
-        case "F":
-            playSound(chord: "F")
-        case "G":
-            playSound(chord: "G")
-        case "A":
-            playSound(chord: "A")
-        case "B":
-            playSound(chord: "B")
-        default:
-            print("It's some other chord")
-        }
-        
+        playSound(chord: (sender.titleLabel?.text)!)
     }
     
     func playSound(chord: String) {
